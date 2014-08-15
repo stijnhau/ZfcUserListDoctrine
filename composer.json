@@ -1,0 +1,31 @@
+{
+    "name": "stijnhau/zfc-user-list-doctrine",
+    "description": "an userlist for ZfcUser that is easy customisable with doctrine usage.",
+    "type": "library",
+    "keywords": [
+        "zf2"
+    ],
+    "homepage": "https://github.com/stijnhau/ZfcUserListDoctrine.git",
+    "authors": [
+        {
+            "name": "stijnhau",
+            "email": "Stijnhau@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "stijnhau/zfc-user-list" : "=dev-master",
+        "doctrine/common" : ">=v2.4.2",
+        "doctrine/orm" : ">=v2.4.4",
+        "doctrine/doctrine-orm-module" : ">=0.8.0",
+        "zf-commons/zfc-user-doctrine-orm" : "=dev-master"
+    },
+    "autoload": {
+        "psr-0": {
+            "ZfcUserListDoctrine": "src/"
+        },
+        "classmap": [
+            "./Module.php"
+        ]
+    }
+}
